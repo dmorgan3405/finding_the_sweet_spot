@@ -66,12 +66,9 @@ The outcomes examined must be ones observable by the user, not something buried 
 
 ## The words matter
 
-Ubiquitous Language: a common, rigorous language between developers and users
-
-Create a vocabulary shared by everyone
+Create a vocabulary shared by everyone.
+- Use the language of the business. 
 - Be consistent
 - Be disciplined
 
-Domain-Driven Design - The words will end up in your codebase.
-
-Speak the language of the business.
+The words will end up in your codebase. (Domain-Driven Design)
