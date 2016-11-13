@@ -16,9 +16,28 @@ Remove unnecessary data and details.
 
 Remove implementation details and scriptiness.
 
+Imperative: Instructing how to do it.
+
+Versus
+
+Declarative: Describing what the goal is
+
+Tips:
 - Ask, "How would a non-technical user describe this step?"
 - Try and remove any details of the underlying technology
 - Look for steps that can be combined into a single domain action
+
+## The words matter
+
+Ubiquitous Language: a common, rigorous language between developers and users
+
+Create a vocabulary shared by everyone
+- Be consistent
+- Be disciplined
+
+Domain-Driven Design - The words will end up in your codebase.
+
+Speak the language of the business.
 
 
 # Things to look for:
