@@ -60,7 +60,7 @@ Are my whens cohesive?
 
 Are there given's hiding in your action?
 
-Is the when focused on only changing the state of the given pre-conditions?
+Is the when focused on only changing the state of the given pre-conditions? It should describe the feature?
 
 Look for steps that can be combined into a single domain action.
 
@@ -68,3 +68,5 @@ Look for steps that can be combined into a single domain action.
 ## The Outcome - Then
 
 Should focus on the outcome of the action
+
+The outcomes examined must be ones observable by the user, not something buried inside the system
