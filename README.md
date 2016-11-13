@@ -11,13 +11,20 @@ Does the feature title include the actor?
 
 Are the words consistent?
 
+## 2. Narrative
 
-## 2. Remove the noise
+Can you find all of these?
+
+  - the user
+  - the need
+  - the benefit
+
+## 3. Remove the noise
 
 Remove unnecessary data and details.
 
 
-## 3. Focus on the behavior
+## 4. Focus on the behavior
 
 Remove implementation details and scriptiness.
 
@@ -33,7 +40,7 @@ Tips:
 - Look for steps that can be combined into a single domain action
 
 
-## 4. The Pre-Condition / Context - Given
+## 5. The Pre-Condition / Context - Given
 
 Are all really necessary?
 
@@ -44,7 +51,9 @@ Are there common pre-conditions that could be part of a background?
 Look for steps that can be combined into a single domain pre-condition.
 
 
-## 5. The Action - When
+## 6. The Action - When
+
+Isolate the trigger
 
 Are my whens cohesive?
 
@@ -55,7 +64,7 @@ Is the when focused on only changing the state of the given pre-conditions? It s
 Look for steps that can be combined into a single domain action.
 
 
-## 6. The Outcome - Then
+## 7. The Outcome - Then
 
 Should focus on the outcome of the action
 
@@ -67,7 +76,7 @@ The outcomes examined must be ones observable by the user, not something buried 
 ## The words matter
 
 Create a vocabulary shared by everyone.
-- Use the language of the business. 
+- Use the language of the business.
 - Be consistent
 - Be disciplined
 
