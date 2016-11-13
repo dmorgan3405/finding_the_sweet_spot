@@ -1,15 +1,19 @@
 Feature: adding a task
 
   Scenario: Adding a task
-    Given I am logged in as a caregiver
-    And I am on the manage my task page
-    When I click Add new task
+    Given the network is established
+    And there are other members in the network
+    And the caregiver is logged in
+    And and the system is on the manage my task page
+    When I click the Add new task button
     And I enter the "Game 7 - NBA finals" into the task name field
-    And I enter "June 19th, 2016" into the date filed
-    And I enter "8:00 pm" into the time field
-    And I enter "Go Cavs!" into the comments field
-    And I click Save Task
+    And I enter "June 19th, 2016" into the date text field
+    And I enter "8:00 pm" into the time text field
+    And I enter "Go Cavs!" into the comments text field
+    And I click the Save Todo button
     Then I should see "Your task has been saved."
+    And the task database should be used
+    And an email is sent to the network memebers
 
   Scenario: No task name
     Given I am on the manage my task page
