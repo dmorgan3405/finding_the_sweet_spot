@@ -1,6 +1,7 @@
 # Finding the Sweet Spot: The Art of Writing Scenarios
 
-Gherkin used for finding the sweet spot talk
+# How to Improve the first draft (SFD)
+
 
 ## Cohesive Scenario Titles
 
@@ -10,9 +11,11 @@ Does the feature title include the actor?
 
 Are the words consistent?
 
+
 ## Remove the noise
 
 Remove unnecessary data and details.
+
 
 ## Focus on the behavior
 
@@ -29,20 +32,6 @@ Tips:
 - Try and remove any details of the underlying technology
 - Look for steps that can be combined into a single domain action
 
-## The words matter
-
-Ubiquitous Language: a common, rigorous language between developers and users
-
-Create a vocabulary shared by everyone
-- Be consistent
-- Be disciplined
-
-Domain-Driven Design - The words will end up in your codebase.
-
-Speak the language of the business.
-
-
-# Things to look for:
 
 ## The Pre-Condition / Context - Given
 
@@ -53,6 +42,7 @@ Anything missing?
 Are there common pre-conditions that could be part of a background?
 
 Look for steps that can be combined into a single domain pre-condition.
+
 
 ## The Action - When
 
@@ -70,3 +60,18 @@ Look for steps that can be combined into a single domain action.
 Should focus on the outcome of the action
 
 The outcomes examined must be ones observable by the user, not something buried inside the system
+
+
+# Additional notes
+
+## The words matter
+
+Ubiquitous Language: a common, rigorous language between developers and users
+
+Create a vocabulary shared by everyone
+- Be consistent
+- Be disciplined
+
+Domain-Driven Design - The words will end up in your codebase.
+
+Speak the language of the business.
