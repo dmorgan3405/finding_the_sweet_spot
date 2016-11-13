@@ -5,7 +5,9 @@ Gherkin used for finding the sweet spot talk
 ## Cohesive Scenario Titles
 
 Do they all support the feature?
+
 Does the feature title include the actor?
+
 Are the words consistent?
 
 ## Remove the noise
